@@ -1,0 +1,7 @@
+Author: Aldair Fernando António Avelino
+Technologies used: HTML5, CSS3, JS
+Version: 0.0.1
+For other new version of this App I am going to make it more responsible.
+facebook: web.facebook.com/pequenoDev
+instagran: /@pequenodev
+YouTube: https://www.youtube.com/
