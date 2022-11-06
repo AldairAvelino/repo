@@ -1,0 +1,9 @@
+	====mediaQueries====
+
+@media screen and (min-width: 0){Celulares}
+
+@media screen and (min-width: 768px){tabletes}
+
+@media screen and (min-width: 992px){desktop}
+
+@media screen and (min-width: 1200px){computadores}

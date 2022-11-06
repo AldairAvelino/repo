@@ -1,0 +1,71 @@
+			===Estudos de JavaScript [Alura]===
+			
+	JavaScript: é uma linguagem nativa da Web, e, ele é utilizado
+para dar dinamismo e interantividade nas nossas páginas.
+
+1- Query Selector[
+	DOM - é o cara que faz a representação do mundo HTML para o
+JavaScript. Ele pode ser acessado através do document();
+	
+	a)- querySelector(""); ele faz a busca de apeas um elemento 
+especifico no JavaScript através do DOM, ele não faz a busca pelo
+Arrays(vectores).
+	
+	obs.: para fazer alteração de um elemento especifico do DOM
+usa-se a seguinte sintaxe: textContent = "";
+
+	b)- querySelectorAll(); ele serve para trazer vários  elementos do DOM,
+neste caso os Arrays(vectores).
+	
+	obs.: toFixed(); mostra as casas decimais escolhidas.
+
+	c)- style(); é usado para atrelar estilos CSS no nosso
+código JavaScript.
+
+	d)- classList.add(); permite adicionar classes CSS no
+nosso código JavaScript.
+]
+
+2- Escutando Eventos[
+	a)- addEventListener("nome_do_evento", nome_da_funcao_criada); 
+	ou)-addEventListener("nome_do_evento",function(){}); 
+é um escutador de eventos, que chama uma função normal ou 
+anónima.
+
+	obs.: os butoon tem por comportamento padrão de fazer o
+submit de dados para uma outra página. No caso de não queres que
+isso aconteça, basta apenas usar a seguinte sintaxe:
+	nome_da_var.addEventListener("click",function(event){
+		event.preventDefault();
+		//a partir daqui o evento de submit será apagado e não
+	fará mais a limpeza da tela do formulário.
+	});
+]
+
+3)- Formulários[
+	Quando usamos o querySelector() em um formulário, temos
+acesso total as suas propriedades name e outras propriedades. E
+para ter acesso basta colocar a seguinte sintaxe:
+	nome_da_var.propriedade_do_form;
+	.value() para pegar o seu valor.
+Só que o tipo de dado vindo de um campo do Formulário é sempre
+String.
+
+	nome_da_var.reset(); apaga os dados dos campos
+]
+
+4)- Criar elementos do HTML dentro do JavaScript[
+	1)- document.createElement("nome_da_tag");
+	
+	2)- appendChild(); adiciona elementos filhos em um elemento
+]
+
+5)- Criando objectos[
+	Objectos: é representar uma determinada características que um 
+determinado elemento tem. E, a sua sintaxe é:
+		nome_da_var = {
+			características: valor,
+			características_n: valor_n
+		}
+	Características(propriedades).
+]
